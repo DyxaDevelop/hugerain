@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Rubik:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 48px 0;
+    background: url('../img/desktop.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login {
+    width: 897px;
+    height: 614px;
+    border: 1px solid #2A2A38;
+    background-color: #0B0915;
+    border-radius: 5px;
+    background-image: url("../img/background.png");
+    background-position: -511px -232px;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    background-color: #151520;
+}
+.left-bar > img {
+    width: 16px;
+    height: 16px;
+    margin: 10px 9px 9px 10px;
+}
+.left-bar > p {
+    margin: 11px 12px 0 0 ;
+    color: #505065;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+}
+.img-svg-1 {
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+.margin-r-20 {
+    padding: 8px 10px 8px 10px;
+}
+.left-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    margin-top: 41px;
+    margin-left: 39px;
+    width: 420px;
+}
+.hugerain {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20.5417px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 41px;
+    text-transform: uppercase;
+}
+.hugerain-site {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #505065;
+}
+.enter {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 3px;
+    color: #FFFFFF;
+}
+.input-group-email {
+    width: 421px;
+    height: 55px;
+    margin-top: 17px;
+    padding-top: 16px;
+}
+.input-group-password {
+    width: 421px;
+    height: 55px;
+    padding-top: 19px;
+    position: relative;
+}
+.forget-pass{
+    display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #505065;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.input-group-email , .input-group-password > .input-p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #505065;
+}
+input{
+    width: 100%;
+    height: 41px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #191924;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #505065;
+    background:none;
+    outline:none;
+}
+
+input::-webkit-input-placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #505065;
+}
+input:active {    
+    transition:0.3s all ease-in; 
+    border-bottom: 2px solid #FEB900;
+    color: #ffffff;
+}
+input:focus {
+    transition:0.3s all ease-in; 
+    border: 0;
+    border-bottom: 2px solid #FEB900;
+    color: #ffffff;
+}
+.forget-pass:hover {
+    color: #FEB900;
+}
+.log-in {
+    background-color: #FFB800;
+    width: 420px;
+    height: 70px;
+    border: 0;
+    border-radius: 5px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 98px;
+    transition:0.3s all ease-in; 
+    outline:none;
+}
+.log-in:hover{
+    border: 2px solid #FFB800;
+    background-color: transparent;
+    color: #FFB800;
+}
+.log-in:focus{
+    border: 2px solid #FFB800;
+    background-color: #fff;
+    color: #FFB800;
+}
+.bottom-bar{
+    display: flex;
+    height: 18px;
+    flex-direction: row;
+}
+.lang {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-right: 65px;
+}
+.lang > p {
+    margin-left: 12px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFF;
+
+    
+}
+.register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.register > p:first-child{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7D7D99;
+    margin-right: 3px;
+}
+.register > p:last-child{
+    cursor: pointer;
+}
+
+.reg {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.reg > p {
+    width: 100%;
+    height: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB800;
+    position: relative;
+}
+.register > img {
+    margin-left: 5px;
+}
+.margin-r-20{
+    cursor: pointer;
+}
+.margin-r-20:hover {
+    transition:0.3s all ease-in; 
+    filter: brightness(12);
+}
+.img-svg-1:hover{
+    cursor: pointer;
+    filter: brightness(12);
+}
+.img-svg-1{
+    cursor: pointer;
+}
+.reg::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    margin-left: 160px;
+    background-image: url('../img/arrow-right.png');
+}
+.reg:hover::after{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
+form {
+    position: relative;
+}
+.input-group-password > img {
+    cursor: pointer;
+    position: absolute;
+    margin: 10px 0 0 -18px;
+}
+.validate {
+    transition:0.3s all ease-in; 
+    border-bottom: 2px solid #ff4d4d;;
+    color: #ffffff;
+}
+.validate:active {    
+    transition:0.3s all ease-in; 
+    border-bottom: 2px solid #ff4d4d;;
+    color: #ff4d4d;
+}
+.validate:focus {
+    transition:0.3s all ease-in; 
+    border: 0;
+    border-bottom: 2px solid #ff4d4d;;
+    color: #ff4d4d;
+}
